@@ -129,7 +129,7 @@
 
             bindings = <
 &trans  &trans     &kp AMPS  &kp ASTRK  &kp LEFT_BRACE  &kp RBRC          &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp DQT    &kp DLLR  &kp PRCNT  &kp CARET       &kp PLUS          &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET       &kp PLUS          &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
 &trans  &kp TILDE  &kp EXCL  &kp AT     &kp HASH        &kp PIPE          &trans  &trans     &trans     &kp RALT  &trans    &trans
                              &kp LPAR   &kp RPAR        &kp UNDERSCORE    &trans  &trans     &trans
             >;
