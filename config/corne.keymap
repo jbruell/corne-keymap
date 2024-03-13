@@ -51,10 +51,10 @@
             //                            | ESC/MEDIA | SPACE/NAV | TAB/MOUSE | # | ENTER/SYM | BSPC/NUM | DEL/FN  |
 
             bindings = <
-&trans  &kp DE_Q    &kp W       &kp F        &kp P        &kp B        &kp J        &kp L        &kp U        &kp Y         &kp SQT     &trans
-&trans  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G        &kp M        &mt LSHFT N  &mt LCTRL E  &mt LALT I    &mt LGUI O  &trans
-&trans  &kp Z       &mt RALT X  &kp C        &kp D        &kp V        &kp K        &kp H        &kp COMMA    &mt RALT DOT  &kp FSLH    &trans
-                                &lt 3 ESC    &lt 1 SPACE  &lt 2 TAB    &lt 5 ENTER  &lt 4 BSPC   &lt 6 DEL
+&trans  &kp DE_Q       &kp DE_W       &kp DE_F        &kp DE_P        &kp DE_B     &kp DE_J     &kp DE_L        &kp DE_U        &kp DE_Y            &kp DE_A_UMLAUT  &kp DE_O_UMLAUT
+&trans  &mt LGUI DE_A  &mt LALT DE_R  &mt LCTRL DE_S  &mt LSHFT DE_T  &kp DE_G     &kp DE_M     &mt LSHFT DE_N  &mt LCTRL DE_E  &mt LALT DE_I       &mt LGUI DE_O    &kp DE_U_UMLAUT
+&trans  &kp DE_Z       &mt RALT DE_X  &kp DE_C        &kp DE_D        &kp DE_V     &kp DE_K     &kp DE_H        &kp DE_COMMA    &mt RALT DE_PERIOD  &kp DE_QUESTION  &kp DE_SHARP_S
+                                      &kp ESCAPE      &lt 1 DE_SPACE  &lt 2 TAB    &lt 4 ENTER  &lt 3 BSPC      &lt 5 DEL
             >;
         };
 
@@ -75,21 +75,6 @@
 
         // TODO
         // Add mouse keys when implemented in ZMK
-
-        mouse {
-            // ------------------------------------------------------------------------------------
-            // |     |      |      |       |       |      | # |     |     |     |     |     |     |
-            // |     | LGUI | LALT | LCTRL | LSHFT |      | # |     |     |     |     |     |     |
-            // |     |      | RALT |       |       |      | # |     |     |     |     |     |     |
-            //                     |       |       | HELD | # |     |     |     |
-
-            bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &kp RALT  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans     &trans     &trans    &trans  &trans  &trans
-            >;
-        };
 
         media {
             // -----------------------------------------------------------------------------------------------------
@@ -114,10 +99,10 @@
             //                   |  .  |  0  |  -  | # |     | HELD  |       |
 
             bindings = <
-&trans  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&trans  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans     &trans     &kp RALT  &trans    &trans
-                           &kp DOT  &kp N0  &kp MINUS    &trans  &trans     &trans
+&trans  &kp DE_LEFT_BRACKET  &kp DE_N7  &kp DE_N8   &kp DE_N9  &kp DE_RIGHT_BRACKET    &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp DE_DOLLAR        &kp DE_N4  &kp DE_N5   &kp DE_N6  &kp DE_EQUAL            &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans  &kp DE_EURO          &kp DE_N1  &kp DE_N2   &kp DE_N3  &kp DE_PLUS             &trans  &trans     &trans     &kp RALT  &trans    &trans
+                                        &kp DE_DOT  &kp DE_N0  &kp DE_MINUS            &trans  &trans     &trans
             >;
         };
 
@@ -129,10 +114,10 @@
             //                   |  (  |  )  |  _  | # | HELD |       |       |
 
             bindings = <
-&trans  &trans     &kp AMPS  &kp ASTRK  &kp LEFT_BRACE  &kp RBRC          &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET       &kp PLUS          &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&trans  &kp TILDE  &kp EXCL  &kp AT     &kp HASH        &kp PIPE          &trans  &trans     &trans     &kp RALT  &trans    &trans
-                             &kp LPAR   &kp RPAR        &kp UNDERSCORE    &trans  &trans     &trans
+&kp DE_BACKSLASH  &kp DE_HASH   &kp DE_AMPERSAND    &kp DE_ASTERISK          &kp DE_CARET              &kp DE_SLASH           &trans  &trans     &trans     &trans    &trans    &trans
+&kp DE_DOLLAR     &kp DE_COLON  &kp DE_SEMICOLON    &kp DE_PERCENT           &kp DE_LEFT_BRACE         &kp DE_RIGHT_BRACE     &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&kp DE_PIPE       &kp DE_TILDE  &kp DE_EXCLAMATION  &kp DE_AT                &kp DE_LESS_THAN          &kp DE_GREATER_THAN    &trans  &trans     &trans     &kp RALT  &trans    &trans
+                                                    &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_UNDERSCORE      &trans  &trans     &trans
             >;
         };
 
