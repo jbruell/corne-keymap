@@ -43,18 +43,12 @@
     keymap {
         compatible = "zmk,keymap";
 
-        colemak_dh {
-            // -----------------------------------------------------------------------------------------------------------------------------
-            // |        |   Q    |   W    |     F     |     P     |     B     | # |     J     |     L    |    U    |    Y   |   '    |     |
-            // |        | A/LGUI | R/LALT |  S/LCTRL  |  T/LSHFT  |     G     | # |     M     | N/LSHFT  | E/LCTRR | I/LALT | O/LGUI |     |
-            // |        |   Z    | X/RALT |     C     |     D     |     V     | # |     K     |     H    |    ,    | ./RALT |   /    |     |
-            //                            | ESC/MEDIA | SPACE/NAV | TAB/MOUSE | # | ENTER/SYM | BSPC/NUM | DEL/FN  |
-
+        qwertz {
             bindings = <
-&trans  &kp DE_Q       &kp DE_W       &kp DE_F        &kp DE_P        &kp DE_B     &kp DE_J     &kp DE_L        &kp DE_U        &kp DE_Y            &kp DE_A_UMLAUT  &kp DE_O_UMLAUT
-&trans  &mt LGUI DE_A  &mt LALT DE_R  &mt LCTRL DE_S  &mt LSHFT DE_T  &kp DE_G     &kp DE_M     &mt LSHFT DE_N  &mt LCTRL DE_E  &mt LALT DE_I       &mt LGUI DE_O    &kp DE_U_UMLAUT
-&trans  &kp DE_Z       &mt RALT DE_X  &kp DE_C        &kp DE_D        &kp DE_V     &kp DE_K     &kp DE_H        &kp DE_COMMA    &mt RALT DE_PERIOD  &kp DE_QUESTION  &kp DE_SHARP_S
-                                      &kp ESCAPE      &lt 1 DE_SPACE  &lt 2 TAB    &lt 4 ENTER  &lt 3 BSPC      &lt 5 DEL
+&kp DE_EXCLAMATION    &kp DE_Q       &kp DE_W       &kp DE_E        &kp DE_R        &kp DE_T     &kp DE_Z     &kp U           &kp DE_I        &kp DE_O            &kp DE_P              &kp DE_U_UMLAUT
+&kp APOSTROPHE        &mt LGUI DE_A  &mt LALT DE_S  &mt LCTRL DE_D  &mt LSHFT DE_F  &kp DE_G     &kp DE_H     &mt LSHFT DE_J  &mt LCTRL DE_K  &mt LALT DE_L       &mt LGUI DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp DE_DOUBLE_QUOTES  &kp DE_Y       &mt RALT DE_X  &kp DE_C        &kp DE_V        &kp DE_B     &kp DE_N     &kp DE_M        &kp DE_COMMA    &mt RALT DE_PERIOD  &kp DE_QUESTION       &kp DE_SHARP_S
+                                                    &kp ESCAPE      &lt 1 DE_SPACE  &lt 2 TAB    &lt 4 ENTER  &lt 3 BSPC      &lt 5 DEL
             >;
         };
 
@@ -72,9 +66,6 @@
                             &trans     &trans     &trans    &kp ENTER     &kp BSPC   &kp DEL
             >;
         };
-
-        // TODO
-        // Add mouse keys when implemented in ZMK
 
         media {
             // -----------------------------------------------------------------------------------------------------
@@ -114,10 +105,10 @@
             //                   |  (  |  )  |  _  | # | HELD |       |       |
 
             bindings = <
-&kp DE_BACKSLASH  &kp DE_HASH   &kp DE_AMPERSAND    &kp DE_ASTERISK          &kp DE_CARET              &kp DE_SLASH           &trans  &trans     &trans     &trans    &trans    &trans
-&kp DE_DOLLAR     &kp DE_COLON  &kp DE_SEMICOLON    &kp DE_PERCENT           &kp DE_LEFT_BRACE         &kp DE_RIGHT_BRACE     &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&kp DE_PIPE       &kp DE_TILDE  &kp DE_EXCLAMATION  &kp DE_AT                &kp DE_LESS_THAN          &kp DE_GREATER_THAN    &trans  &trans     &trans     &kp RALT  &trans    &trans
-                                                    &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_UNDERSCORE      &trans  &trans     &trans
+&kp DE_BACKSLASH  &kp DE_HASH   &kp DE_AMPERSAND  &kp DE_ASTERISK          &kp DE_CARET              &kp DE_SLASH           &trans  &trans     &trans     &trans    &trans    &trans
+&kp DE_DOLLAR     &kp DE_COLON  &kp DE_SEMICOLON  &kp DE_PERCENT           &kp DE_LEFT_BRACE         &kp DE_RIGHT_BRACE     &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&kp DE_PIPE       &kp DE_TILDE  &kp DE_HASH       &kp DE_AT                &kp DE_LESS_THAN          &kp DE_GREATER_THAN    &trans  &trans     &trans     &kp RALT  &trans    &trans
+                                                  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_UNDERSCORE      &trans  &trans     &trans
             >;
         };
 
@@ -133,6 +124,21 @@
 &trans  &kp F11  &kp F4  &kp F5   &kp F6     &kp SLCK           &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
 &trans  &kp F10  &kp F1  &kp F2   &kp F3     &kp PAUSE_BREAK    &trans  &trans     &trans     &kp RALT  &trans    &trans
                          &kp ESC  &kp SPACE  &kp TAB            &trans  &trans     &trans
+            >;
+        };
+
+        colemak_dh {
+            // -----------------------------------------------------------------------------------------------------------------------------
+            // |        |   Q    |   W    |     F     |     P     |     B     | # |     J     |     L    |    U    |    Y   |   '    |     |
+            // |        | A/LGUI | R/LALT |  S/LCTRL  |  T/LSHFT  |     G     | # |     M     | N/LSHFT  | E/LCTRR | I/LALT | O/LGUI |     |
+            // |        |   Z    | X/RALT |     C     |     D     |     V     | # |     K     |     H    |    ,    | ./RALT |   /    |     |
+            //                            | ESC/MEDIA | SPACE/NAV | TAB/MOUSE | # | ENTER/SYM | BSPC/NUM | DEL/FN  |
+
+            bindings = <
+&kp DE_ACUTE  &kp DE_Q       &kp DE_W       &kp DE_F        &kp DE_P        &kp DE_B     &kp DE_J     &kp DE_L        &kp DE_U        &kp DE_Y            &kp DE_A_UMLAUT  &kp DE_O_UMLAUT
+&trans        &mt LGUI DE_A  &mt LALT DE_R  &mt LCTRL DE_S  &mt LSHFT DE_T  &kp DE_G     &kp DE_M     &mt LSHFT DE_N  &mt LCTRL DE_E  &mt LALT DE_I       &mt LGUI DE_O    &kp DE_U_UMLAUT
+&trans        &kp DE_Z       &mt RALT DE_X  &kp DE_C        &kp DE_D        &kp DE_V     &kp DE_K     &kp DE_H        &kp DE_COMMA    &mt RALT DE_PERIOD  &kp DE_QUESTION  &kp DE_SHARP_S
+                                            &kp ESCAPE      &lt 1 DE_SPACE  &lt 2 TAB    &lt 4 ENTER  &lt 3 BSPC      &lt 5 DEL
             >;
         };
     };
