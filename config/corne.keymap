@@ -41,14 +41,14 @@
             bindings = <&kp>, <&kp>;
         };
 
-        td: tapdance {
+        td_music: tapdance_music {
             compatible = "zmk,behavior-hold-tap";
-            label = "TAPDANCE";
-            #binding-cells = <2>;
+            label = "Tap Dance Music";
+            #binding-cells = <0>;
             tapping-term-ms = <150>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+            bindings = <&kp C_PLAY_PAUSE>, <&kp C_NEXT> <&kp C_PREV>;
         };
 
         bspc_del: backspace_delete {
