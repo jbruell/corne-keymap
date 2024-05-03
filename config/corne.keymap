@@ -88,6 +88,24 @@
         };
     };
 
+    macros {
+        macro_par: macro_par {
+            label = "macro_par";
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>; // Must be 2
+            tap-ms = <30>;
+            wait-ms = <10>;
+            bindings
+                = <&macro_param_1to1>
+                , <&macro_tap &kp MACRO_PLACEHOLDER>
+                , <&macro_param_2to1>
+                , <&macro_tap &kp MACRO_PLACEHOLDER>
+                , <&macro_tap &kp LEFT>
+                ;
+        }
+    }
+
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -141,7 +159,7 @@
 &kp DE_BACKSLASH  &kp DE_HASH   &kp DE_AMPERSAND  &kp DE_ASTERISK          &kp DE_CARET              &kp DE_SLASH           &trans  &trans     &trans     &trans    &trans    &trans
 &kp DE_DOLLAR     &kp DE_COLON  &kp DE_SEMICOLON  &kp DE_PERCENT           &kp DE_LEFT_BRACE         &kp DE_RIGHT_BRACE     &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
 &kp DE_PIPE       &kp DE_TILDE  &kp DE_HASH       &kp DE_AT                &kp DE_LESS_THAN          &kp DE_GREATER_THAN    &trans  &trans     &trans     &kp RALT  &trans    &trans
-                                                  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_UNDERSCORE      &trans  &trans     &trans
+                                                  &kp DE_LEFT_PARENTHESIS  &macro_par DE_LEFT_PARENTHESIS DE_RIGHT_PARENTHESIS  &kp DE_UNDERSCORE      &trans  &trans     &trans
             >;
         };
 
