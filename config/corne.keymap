@@ -125,10 +125,10 @@
             //                     |       | HELD  |     | # | ENTER | BSPC | DEL  |
 
             bindings = <
-&none  &kp F12  &kp F7  &kp F8  &kp F9     &kp PSCRN          &kp K_REDO    &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_UNDO  &none
-&none  &kp F11  &kp F4  &kp F5  &kp F6     &kp SLCK           &kp CAPSLOCK  &kp LEFT      &kp DOWN    &kp UP       &kp RIGHT   &none
-&none  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK    &kp INS       &kp HOME      &kp PG_DN   &kp PG_UP    &kp END     &none
-                        &none   &kp SPACE  &kp ESCAPE         &kp C_VOL_DN  &kp C_VOL_UP  &none
+&none  &kp F12  &kp F9  &kp F8  &kp F7     &kp PSCRN          &kp K_REDO    &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_UNDO  &none
+&none  &kp F11  &kp F6  &kp F5  &kp F4     &kp SLCK           &kp CAPSLOCK  &kp LEFT      &kp DOWN    &kp UP       &kp RIGHT   &none
+&none  &kp F10  &kp F3  &kp F2  &kp F1     &kp PAUSE_BREAK    &kp INS       &kp HOME      &kp PG_DN   &kp PG_UP    &kp END     &none
+                        &none   &td_music  &kp ESCAPE         &kp C_VOL_DN  &kp C_VOL_UP  &none
             >;
         };
 
