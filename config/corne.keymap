@@ -52,7 +52,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	  td: tapdance {
+	      td: tapdance {
             compatible = "zmk,behavior-hold-tap";
             label = "TAPDANCE";
             #binding-cells = <2>;
@@ -61,8 +61,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-    };
-	  ltd: layer_tapdance {
+	      ltd: layer_tapdance {
             compatible = "zmk,behavior-hold-tap";
             label = "Layer Tapdance";
             #binding-cells = <2>;
