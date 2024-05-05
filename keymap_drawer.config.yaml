@@ -499,7 +499,7 @@ parse_config:
     LPAR: (
     RIGHT_PARENTHESIS: )
     RPAR: )
-    EQUAL: =
+    EQUAL: "="
     PLUS: +
     MINUS:
       tap: "-"
