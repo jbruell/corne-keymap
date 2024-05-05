@@ -129,33 +129,21 @@
             >;
         };
 
-        system {
-            // -------------------------------------------------------------------------------------------
-            // |     |      |      |       |       |     | # | REDO  | CUT  | COPY | PASTE | UNDO  |     |
-            // |     | LGUI | LALT | LCTRL | LSHFT |     | # | CAPS  | LEFT | DOWN | UP    | RIGHT |     |
-            // |     |      | RALT |       |       |     | # | INS   | HOME | PGDN | PGUP  | END   |     |
-            //                     |       | HELD  |     | # | ENTER | BSPC | DEL  |
-
-            bindings = <
-&kp LA(F4)  &kp F12  &kp F9  &kp F8  &kp F7     &kp PSCRN          &kp K_REDO    &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_UNDO  &none
-&none       &kp F11  &kp F6  &kp F5  &kp F4     &kp SLCK           &kp CAPSLOCK  &kp LEFT      &kp DOWN    &kp UP       &kp RIGHT   &none
-&td_test    &kp F10  &kp F3  &kp F2  &kp F1     &kp PAUSE_BREAK    &kp INS       &kp HOME      &kp PG_DN   &kp PG_UP    &kp END     &none
-                             &none   &td_music  &kp ESCAPE         &kp C_VOL_DN  &kp C_VOL_UP  &none
-            >;
-        };
-
         symbols {
-            // ------------------------------------------------------------------------------------
-            // |     |     |  &  |  *  |  {  |  }  | # |      |       |       |      |      |     |
-            // |     |  :  |  $  |  %  |  ^  |  +  | # |      | LSHFT | LCTRL | LALT | LGUI |     |
-            // |     |  ~  |  !  |  @  |  #  |  |  | # |      |       |       | RALT |      |     |
-            //                   |  (  |  )  |  _  | # | HELD |       |       |
-
             bindings = <
 &none  &none         &kp DE_AMPERSAND  &kp DE_ASTERISK                          &kp DE_SLASH            &kp DE_BSLH                   &kp DE_EURO   &kp DE_N7  &kp DE_N8     &kp DE_N9  &none         &none
 &none  &kp DE_DLLR   &kp DE_PIPE       &kp DE_PERCENT                           &macro_par DE_LT DE_GT  &macro_par DE_LBKT DE_RBKT    &kp DE_COMMA  &kp DE_N4  &kp DE_N5     &kp DE_N6  &kp DE_EQUAL  &none
 &none  &kp DE_TILDE  &kp DE_HASH       &kp DE_AT                                &kp DE_LESS_THAN        &kp DE_GREATER_THAN           &kp DE_DOT    &kp DE_N1  &kp DE_N2     &kp DE_N3  &kp DE_PLUS   &none
                                        &macro_par DE_LEFT_BRACE DE_RIGHT_BRACE  &none                   &macro_par DE_LPAR DE_RPAR    &kp DE_N0     &none      &kp DE_MINUS
+            >;
+        };
+
+        system {
+            bindings = <
+&kp LA(F4)  &kp F12  &kp F9  &kp F8  &kp F7     &kp PSCRN          &kp K_REDO    &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_UNDO  &none
+&none       &kp F11  &kp F6  &kp F5  &kp F4     &kp SLCK           &kp CAPSLOCK  &kp LEFT      &kp DOWN    &kp UP       &kp RIGHT   &none
+&td_test    &kp F10  &kp F3  &kp F2  &kp F1     &kp PAUSE_BREAK    &kp INS       &kp HOME      &kp PG_DN   &kp PG_UP    &kp END     &none
+                             &none   &td_music  &kp ESC            &kp C_VOL_DN  &kp C_VOL_UP  &none
             >;
         };
     };

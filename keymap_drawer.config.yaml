@@ -1,4 +1,5 @@
 draw_config:
+  dark_mode: true
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
   key_h: 80
@@ -464,8 +465,18 @@ parse_config:
     "&bootloader":
       tap: $$mdi:progress-download$$
 
+    # Mine
+    "&sdquo":
+      tap: "'"
+      shifted: '"'
+
   # ZMK
   zmk_keycode_map:
+    # Letters
+    "U_UMLAUT": Ü
+    "O_UMLAUT": Ö
+    "A_UMLAUT": Ä
+    SZ: ß
     # Symbols
     EXCLAMATION: "!"
     EXCL: "!"
@@ -475,6 +486,7 @@ parse_config:
     POUND: "#"
     DOLLAR: $
     DLLR: $
+    EURO: €
     PERCENT: "%"
     PRCNT: "%"
     CARET: ^
@@ -487,9 +499,7 @@ parse_config:
     LPAR: (
     RIGHT_PARENTHESIS: )
     RPAR: )
-    EQUAL:
-      tap: "="
-      shifted: "+"
+    EQUAL: =
     PLUS: +
     MINUS:
       tap: "-"
@@ -514,9 +524,7 @@ parse_config:
     NON_US_BACKSLASH: \
     PIPE2: "|"
     NON_US_BSLH: "|"
-    SEMICOLON:
-      tap: ";"
-      shifted: ":"
+    SEMICOLON: ";"
     SEMI:
       tap: ";"
       shifted: ":"
@@ -531,15 +539,19 @@ parse_config:
     APOS: .
     DOUBLE_QUOTES: '"'
     DQT: '"'
+    ACUTE: '´'
 
     LESS_THAN: <
     LT: <
     DOT:
       tap: "."
       shifted: ">"
+    PERIOD:
+      tap: "."
+      shifted: ":"
     COMMA:
       tap: ","
-      shifted: "<"
+      shifted: ";"
     GREATER_THAN: ">"
     GT: ">"
     LEFT_BRACKET:
@@ -567,43 +579,26 @@ parse_config:
     TILDE2: "~"
 
     # Numbers
-    N1:
-      tap: 1
-      shifted: "!"
-    N2:
-      tap: 2
-      shifted: "@"
-    N3:
-      tap: 3
-      shifted: "#"
-    N4:
-      tap: 4
-      shifted: "$"
-    N5:
-      tap: 5
-      shifted: "%"
-    N6:
-      tap: 6
-      shifted: "^"
-    N7:
-      tap: 7
-      shifted: "&"
-    N8:
-      tap: 8
-      shifted: "*"
-    N9:
-      tap: 9
-      shifted: "("
-    N0:
-      tap: 0
-      shifted: ")"
+    N1: 1
+    N2: 2
+    N3: 3
+    N4: 4
+    N5: 5
+    N6: 6
+    N7: 7
+    N8: 8
+    N9: 9
+    N0: 0
 
     # Modifiers
     LCTRL: $$mdi:apple-keyboard-control$$
+    "LEFT_CONTROL": $$mdi:apple-keyboard-control$$
     LALT: $$mdi:apple-keyboard-option$$
     LSHIFT: $$mdi:apple-keyboard-shift$$
+    "LEFT_SHIFT": $$mdi:apple-keyboard-shift$$
     LSHFT: $$mdi:apple-keyboard-shift$$
     LCMD: $$mdi:apple-keyboard-command$$
+    "LEFT_GUI": $$mdi:apple-keyboard-command$$
     RCTRL: $$mdi:apple-keyboard-control$$
     RALT: $$mdi:apple-keyboard-option$$
     RSHIFT: $$mdi:apple-keyboard-shift$$
