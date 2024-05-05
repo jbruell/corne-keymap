@@ -49,6 +49,14 @@
             bindings = <&kp C_PLAY_PAUSE>, <&kp C_NEXT>, <&kp C_PREV>;
         };
 
+        td_test: tapdance_test {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Tap Dance td_test";
+            #binding-cells = <0>;
+            tapping-term-ms = <150>;
+            bindings = <&kp DE_A>, <&kp DE_B>, <&kp DE_C>;
+        };
+
         bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             label = "BACKSPACE_DELETE";
