@@ -1,0 +1,131 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  qwertz:
+  - ACUTE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Z
+  - U
+  - I
+  - O
+  - P
+  - U UMLAUT
+  - ^
+  - A
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: LEFT GUI}
+  - {t: F, h: LEFT CONTROL}
+  - G
+  - H
+  - {t: J, h: LEFT CONTROL}
+  - {t: K, h: LEFT GUI}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - O UMLAUT
+  - A UMLAUT
+  - '!'
+  - Y
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - PERIOD
+  - {t: <, s: '"'}
+  - SZ
+  - {t: ;, h: symbols, s: ':'}
+  - {t: '$$mdi:keyboard-space$$', h: system}
+  - {t: LEFT SHIFT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', h: system, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: symbols}
+  system:
+  - Alt+ F4
+  - F12
+  - F9
+  - F8
+  - F7
+  - PSCRN
+  - REDO
+  - CUT
+  - COPY
+  - PASTE
+  - UNDO
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F11
+  - F6
+  - F5
+  - F4
+  - SLCK
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&td_test'
+  - F10
+  - F3
+  - F2
+  - F1
+  - PAUSE BREAK
+  - INS
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '&td_music', type: held}
+  - ESCAPE
+  - $$mdi:volume-low$$
+  - {t: '$$mdi:volume-high$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  symbols:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&'
+  - '*'
+  - {t: /, s: '?'}
+  - {t: \, s: '|'}
+  - EURO
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $
+  - '|'
+  - '%'
+  - '&macro_par DE_LT DE_GT'
+  - '&macro_par DE_LBKT DE_RBKT'
+  - {t: ',', s: <}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
+  - '#'
+  - '@'
+  - <
+  - '>'
+  - {t: ., s: '>'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - +
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '&macro_par DE_LEFT_BRACE DE_RIGHT_BRACE', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&macro_par DE_LPAR DE_RPAR'
+  - {t: '0', s: )}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '-', s: _, type: held}
