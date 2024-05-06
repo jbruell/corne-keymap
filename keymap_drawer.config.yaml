@@ -390,13 +390,13 @@ draw_config:
 
   svg_style_dark: |
     svg.keymap {
-        --color--bg: transparent;
+        /*--color--bg: transparent;
         --color--text: var(--color--material--blue-gray--50);
         
         --color--layer--text: var(--color--material--blue-gray--400);
         
         --color--key--bg: var(--color--material--blue-gray--700);
-        /*--color--key--border: white;*/
+        --color--key--border: white;*/
         --color--key--text--tap: var(--color--material--blue-gray--100);
         --color--key--text--shifted: var(--color--material--blue-gray--500);
         --color--key--text--hold: var(--color--material--blue-gray--500);
