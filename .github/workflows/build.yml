@@ -161,18 +161,18 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          path: ${{ env.build_dir }}/artifacts
+          path: artifacts
           merge-multiple: true
       - name: Display structure of downloaded files
-        run: ls -R ${{ env.build_dir }}/artifacts
+        run: ls -R artifacts
 
       - uses: vimtor/action-zip@v1.2
         with:
-          files: ${{ env.build_dir }}/artifacts/
-          dest: ${{ env.build_dir }}/artifacts/firmware.zip
+          files: artifacts/
+          dest: artifacts/firmware.zip
 
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: Release
-          files: ${{ env.build_dir }}/artifacts/*
+          files: artifacts/*
