@@ -717,16 +717,14 @@ parse_config:
       hold: zoom
 
     # Edit
-    CUT: Cut
-    COPY: Copy
-    PASTE: Paste
-    UNDO: Undo
-    REDO: Redo
+    K_CUT: Cut
+    K_COPY: Copy
+    K_PASTE: Paste
+    K_UNDO: Undo
+    K_REDO: Redo
 
     SLCK: Rollen
-    PAUSE_BREAK:
-      tap: Pause
-      hold: Untbr
+    PAUSE_BREAK: Pause
     INS: Einfg
     HOME: Home
     PG_DN:
