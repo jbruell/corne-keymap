@@ -93,11 +93,11 @@ layers:
   - F8
   - F7
   - Druck
-  - REDO
-  - CUT
-  - COPY
-  - PASTE
-  - UNDO
+  - Redo
+  - Cut
+  - Copy
+  - Paste
+  - Undo
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F11
@@ -116,7 +116,7 @@ layers:
   - F3
   - F2
   - F1
-  - {t: Pause, h: Untbr}
+  - Pause
   - Einfg
   - Home
   - {t: Bild, h: '$$mdi:arrow-down-bold$$'}
