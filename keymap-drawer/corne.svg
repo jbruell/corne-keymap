@@ -681,17 +681,11 @@ svg.keymap {
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;macro_par</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">DE_LT</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">DE_GT</tspan>
-</text>
+<text x="0" y="0" class="key tap">&lt;&gt;</text>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;macro_par</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">DE_LBKT</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">DE_RBKT</tspan>
-</text>
+<text x="0" y="0" class="key tap">[]</text>
 </g>
 <g transform="translate(760, 140)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -768,10 +762,7 @@ svg.keymap {
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;macro_par</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">DE_LEFT_BRACE</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">DE_RIGHT_BRACE</tspan>
-</text>
+<text x="0" y="0" class="key tap">{}</text>
 </g>
 <g transform="translate(408, 304) rotate(15.0)" class="key held keypos-37">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
@@ -779,10 +770,7 @@ svg.keymap {
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key keypos-38">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;macro_par</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">DE_LPAR</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">DE_RPAR</tspan>
-</text>
+<text x="0" y="0" class="key tap">()</text>
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
@@ -874,7 +862,7 @@ svg.keymap {
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">SLCK</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 83%">Rollen</tspan></text>
 </g>
 <g transform="translate(760, 140)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -922,33 +910,32 @@ svg.keymap {
 </g>
 <g transform="translate(440, 220)" class="key keypos-29">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">PAUSE</tspan><tspan x="0" dy="1.0em">BREAK</tspan>
-</text>
+<text x="0" y="0" class="key tap">Pause</text>
+<text x="0" y="-34" class="key shifted">Untbr</text>
 </g>
 <g transform="translate(760, 220)" class="key keypos-30">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">INS</text>
+<text x="0" y="0" class="key tap">Einfg</text>
 </g>
 <g transform="translate(840, 210)" class="key keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">HOME</text>
+<text x="0" y="0" class="key tap">Home</text>
 </g>
 <g transform="translate(920, 200)" class="key keypos-32">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">PG</tspan><tspan x="0" dy="1.0em">DN</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 60%">Bild</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">$$mdi:arrow-down-bold$$</tspan>
 </text>
 </g>
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">PG</tspan><tspan x="0" dy="1.0em">UP</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 60%">Bild</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">$$mdi:arrow-up-bold$$</tspan>
 </text>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">END</text>
+<text x="0" y="0" class="key tap">Ende</text>
 </g>
 <g transform="translate(1160, 230)" class="key none keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key none"/>
