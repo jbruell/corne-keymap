@@ -111,7 +111,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&td_test'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F10
   - F3
   - F2
@@ -124,7 +124,7 @@ layers:
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - '&td_music'
+  - PLAY PAUSE
   - $$mdi:keyboard-esc$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
