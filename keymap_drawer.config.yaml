@@ -429,6 +429,12 @@ draw_config:
 #    }
 #
 
+  svg_extra_style: |
+    svg.keymap {
+        --color--key--text--tap: var(--color--material--blue-gray--100);
+    }
+
+
 parse_config:
   zmk_remove_keycode_prefix: ["DE_"]
   mark_alternate_layer_activators: true
