@@ -433,6 +433,9 @@ draw_config:
     svg.keymap {
         --color--key--text--tap: var(--color--material--blue-gray--100);
     }
+    .tap {
+        fill: var(--color--material--blue-gray--100);
+    }
 
 
 parse_config:
