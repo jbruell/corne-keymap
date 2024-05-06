@@ -116,11 +116,11 @@ layers:
   - F3
   - F2
   - F1
-  - {t: Pause, s: Untbr}
+  - {t: Pause, h: Untbr}
   - Einfg
   - Home
-  - Bild $$mdi:arrow-down-bold$$
-  - Bild $$mdi:arrow-up-bold$$
+  - {t: Bild, h: '$$mdi:arrow-down-bold$$'}
+  - {t: Bild, h: '$$mdi:arrow-up-bold$$'}
   - Ende
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
