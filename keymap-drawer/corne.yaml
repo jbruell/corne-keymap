@@ -37,7 +37,7 @@ layers:
   - {t: ., s: ':'}
   - {t: '''', s: '"'}
   - ß
-  - {t: ;, h: system, s: ':'}
+  - {t: ;, h: system}
   - {t: '$$mdi:keyboard-space$$', h: symbols}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&'
   - '*'
-  - {t: /, s: '?'}
+  - /
   - \
   - €
   - '7'
@@ -74,7 +74,7 @@ layers:
   - '@'
   - <
   - '>'
-  - {t: ., s: '>'}
+  - .
   - '1'
   - '2'
   - '3'
@@ -92,7 +92,7 @@ layers:
   - F9
   - F8
   - F7
-  - PSCRN
+  - Druck
   - REDO
   - CUT
   - COPY
@@ -124,7 +124,7 @@ layers:
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - PLAY PAUSE
+  - $$mdi:play-pause$$
   - $$mdi:keyboard-esc$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
