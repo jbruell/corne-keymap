@@ -415,6 +415,9 @@ path.combo { stroke: #7f7f7f; }
 svg.keymap {
     --color--key--text--tap: var(--color--material--blue-gray--100);
 }
+.tap {
+    fill: var(--color--material--blue-gray--100);
+}
 </style>
 <g transform="translate(0, 0)" class="layer-qwertz">
 <text x="0" y="0" class="label">qwertz</text>
