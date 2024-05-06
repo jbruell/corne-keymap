@@ -520,6 +520,11 @@ parse_config:
       tap: "'"
       shifted: '"'
 
+    "&macro_par DE_LT DE_GT": "<>"
+    "&macro_par DE_LBKT DE_RBKT": "[]"
+    "&macro_par DE_LPAR DE_RPAR": "()"
+    "&macro_par DE_LEFT_BRACE DE_RIGHT_BRACE": "{}"
+
   # ZMK
   zmk_keycode_map:
     # Letters
@@ -710,6 +715,23 @@ parse_config:
     RG(RS(V)):
       tap: $$mdi:video$$
       hold: zoom
+
+    # Edit
+    CUT: Cut
+    COPY: Copy
+    PASTE: Paste
+    UNDO: Undo
+    REDO: Redo
+
+    SLCK: Rollen
+    PAUSE_BREAK:
+      tap: Pause
+      shifted: Untbr
+    INS: Einfg
+    HOME: Home
+    PG_DN: Bild $$mdi:arrow-down-bold$$
+    PG_UP: Bild $$mdi:arrow-up-bold$$
+    END: Ende
 
   zmk_combos:
     combo_to_2:
