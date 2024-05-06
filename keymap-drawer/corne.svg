@@ -409,12 +409,12 @@ svg.keymap {
     
     --color--layer--text: var(--color--material--blue-gray--400);
     
-    --color--key--bg: var(--color--material--blue-gray--50);
-    --color--key--border: white;
-    --color--key--text--tap: var(--color--text);
+    --color--key--bg: var(--color--material--blue-gray--700);
+    /*--color--key--border: white;*/
+    --color--key--text--tap: var(--color--material--blue-gray--100);
     --color--key--text--shifted: var(--color--material--blue-gray--500);
     --color--key--text--hold: var(--color--material--blue-gray--500);
-    
+    /*
     --color--combo--bg: var(--color--material--blue-gray--100);
     --color--combo--border: var(--color--combo--bg);
     --color--combo--dendron: var(--color--combo--border);
@@ -439,6 +439,7 @@ svg.keymap {
     --color--ghost--text--tap: var(--color--trans--text--tap);
     --color--ghost--text--shifted: var(--color--trans--text--shifted);
     --color--ghost--text--hold: var(--color--trans--text--shifted);
+    */
 }
 </style>
 <g transform="translate(0, 0)" class="layer-qwertz">
