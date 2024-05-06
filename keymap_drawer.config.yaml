@@ -726,11 +726,15 @@ parse_config:
     SLCK: Rollen
     PAUSE_BREAK:
       tap: Pause
-      shifted: Untbr
+      hold: Untbr
     INS: Einfg
     HOME: Home
-    PG_DN: Bild $$mdi:arrow-down-bold$$
-    PG_UP: Bild $$mdi:arrow-up-bold$$
+    PG_DN:
+      tap: Bild
+      hold: $$mdi:arrow-down-bold$$
+    PG_UP:
+      tap: Bild
+      hold: $$mdi:arrow-up-bold$$
     END: Ende
 
   zmk_combos:
