@@ -93,23 +93,23 @@ layers:
   - F8
   - F7
   - Druck
+  - Undo
   - Redo
   - Cut
-  - Copy
-  - Paste
-  - Undo
+  - Ende
+  - {t: Bild, h: '$$mdi:arrow-up-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - LEFT GUI(L)
   - F11
   - F6
   - F5
   - F4
   - Rollen
-  - $$mdi:apple-keyboard-caps$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
+  - Copy
+  - Paste
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - Home
+  - {t: Bild, h: '$$mdi:arrow-down-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F10
@@ -117,10 +117,10 @@ layers:
   - F2
   - F1
   - Pause
-  - Einfg
-  - Home
-  - {t: Bild, h: '$$mdi:arrow-down-bold$$'}
-  - {t: Bild, h: '$$mdi:arrow-up-bold$$'}
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - Ende
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
