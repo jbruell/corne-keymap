@@ -96,10 +96,10 @@
 
         qwertz {
             bindings = <
-&kp DE_ACUTE  &kp DE_Q  &kp DE_W       &kp DE_E           &kp DE_R               &kp DE_T          &kp DE_Z      &kp DE_U               &kp DE_I           &kp DE_O       &kp DE_P         &kp DE_U_UMLAUT
-&kp DE_CARET  &kp DE_A  &mt LALT DE_S  &mt LEFT_GUI DE_D  &mt LEFT_CONTROL DE_F  &kp DE_G          &kp DE_H      &mt LEFT_CONTROL DE_J  &mt LEFT_GUI DE_K  &mt LALT DE_L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
-&kp DE_EXCL   &kp DE_Y  &kp DE_X       &kp DE_C           &kp DE_V               &kp DE_B          &kp DE_N      &kp DE_M               &kp DE_COMMA       &kp DE_PERIOD  &sdquo           &kp DE_SZ
-                                       &lt 2 DE_SEMI      &lt 1 DE_SPACE         &sk LEFT_SHIFT    &kp bspc_del  &lt 1 ENTER            &lt 2 TAB
+&kp DE_ACUTE  &kp DE_Q  &kp DE_W       &kp DE_E           &kp DE_R               &kp DE_T          &kp DE_Z   &kp DE_U               &kp DE_I           &kp DE_O       &kp DE_P         &kp DE_U_UMLAUT
+&kp DE_CARET  &kp DE_A  &mt LALT DE_S  &mt LEFT_GUI DE_D  &mt LEFT_CONTROL DE_F  &kp DE_G          &kp DE_H   &mt LEFT_CONTROL DE_J  &mt LEFT_GUI DE_K  &mt LALT DE_L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp DE_EXCL   &kp DE_Y  &kp DE_X       &kp DE_C           &kp DE_V               &kp DE_B          &kp DE_N   &kp DE_M               &kp DE_COMMA       &kp DE_PERIOD  &sdquo           &kp DE_SZ
+                                       &lt 2 DE_SEMI      &lt 1 DE_SPACE         &sk LEFT_SHIFT    &bspc_del  &lt 1 ENTER            &lt 2 TAB
             >;
         };
 

@@ -520,7 +520,7 @@ parse_config:
       tap: "'"
       shifted: '"'
 
-    "bspc_del":
+    "&bspc_del":
       tap: $$mdi:backspace$$
       shifted: $$mdi:backspace-reverse-outline$$
 
