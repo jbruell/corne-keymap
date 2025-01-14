@@ -520,6 +520,10 @@ parse_config:
       tap: "'"
       shifted: '"'
 
+    "bspc_del":
+      tap: $$mdi:backspace$$
+      shifted: $$mdi:backspace-reverse-outline$$
+
     "&macro_par DE_LT DE_GT": "<>"
     "&macro_par DE_LBKT DE_RBKT": "[]"
     "&macro_par DE_LPAR DE_RPAR": "()"
