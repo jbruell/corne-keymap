@@ -11,5 +11,3 @@
 https://www.keyboard-layout-editor.com/#/gists/30b195c03cb5eabcdd4dbe19f3de4293
 
 ![Keymap](./img/jbruell's-corne42.png)
-
-![Keymap](./keymap-drawer/corne.svg)
