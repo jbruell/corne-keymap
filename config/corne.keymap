@@ -46,14 +46,6 @@ ZMK_MOD_MORPH(sdquote, \
     keep-mods = <(MOD_LSFT|MOD_RSFT)>; \
     bindings = \
         <&kp DE_SQT>, \
-        <&kp DE_DQT>; \
-)
-
-/*ZMK_MOD_MORPH(sdquote, \
-    mods = <(MOD_LSFT|MOD_RSFT)>; \
-    keep-mods = <(MOD_LSFT|MOD_RSFT)>; \
-    bindings = \
-        <&kp DE_SQT>, \
         <&kp DE_DGT>; \
 )
 
@@ -63,7 +55,7 @@ ZMK_MOD_MORPH(bspc_del, \
     bindings = \
         <&kp BSPC>, \
         <&kp DEL>; \
-)*/
+)
 
 ZMK_BEHAVIOR(shift_caps_w, tap_dance,
     tapping-term-ms = <200>;
