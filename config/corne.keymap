@@ -45,8 +45,8 @@ ZMK_MOD_MORPH(removethis, \
     mods = <(MOD_LSFT|MOD_RSFT)>; \
     keep-mods = <(MOD_LSFT|MOD_RSFT)>; \
     bindings = \
-        <&kp LS(N9)>, \
-        <&kp N0>; \
+        <&kp DE_SQT>, \
+        <&kp DE_DQT>; \
 )
 
 /*ZMK_MOD_MORPH(sdquote, \
