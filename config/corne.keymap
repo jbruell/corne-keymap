@@ -41,7 +41,7 @@ ZMK_COMBO(cancel, \
     HRM_TAPPING_TERM \
 )
 
-ZMK_MOD_MORPH(removethis, \
+ZMK_MOD_MORPH(sdquote, \
     mods = <(MOD_LSFT|MOD_RSFT)>; \
     keep-mods = <(MOD_LSFT|MOD_RSFT)>; \
     bindings = \
