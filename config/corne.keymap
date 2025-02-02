@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #include "zmk-helpers/helper.h"
+#include "zmk-helpers/key-labels/42.h"
 
 #include "./helpers.h"
 #include "./keys_de.h"

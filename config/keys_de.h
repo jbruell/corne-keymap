@@ -1,13 +1,3 @@
-#include "zmk-helpers/key-labels/42.h"
-
-#define LEFT_SIDE_KEYS LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5
-#define RIGHT_SIDE_KEYS RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5
-#define THUMB_KEYS LH2 LH1 LH0 RH0 RH1 RH2
-
-#define MEH LS(LA(LCTRL))
-
-#define BRKTS DE_LBKT DE_RBKT
-
 /*
  * Localized Keys for German
  *
@@ -66,6 +56,16 @@
 #include <dt-bindings/zmk/hid_usage.h>
 #include <dt-bindings/zmk/hid_usage_pages.h>
 #include <dt-bindings/zmk/modifiers.h>
+
+#include "zmk-helpers/key-labels/42.h"
+
+#define LEFT_SIDE_KEYS LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5
+#define RIGHT_SIDE_KEYS RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5
+#define THUMB_KEYS LH2 LH1 LH0 RH0 RH1 RH2
+
+#define MEH LS(LA(LCTRL))
+
+#define BRKTS DE_LBKT DE_RBKT
 
 #define DE_ESCAPE_CHARACTER (LC(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_LEFT_BRACKET_AND_LEFT_BRACE)))
 
