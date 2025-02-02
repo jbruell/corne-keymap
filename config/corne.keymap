@@ -43,7 +43,7 @@ ZMK_COMBO(cancel, \
 
 ZMK_MOD_MORPH(sdquote, \
     mods = <(MOD_LSFT|MOD_RSFT)>; \
-    keep-mods = <(MOD_LSFT|MOD_RSFT)>; \
+    keep-mods = <0>; \
     bindings = \
         <&kp DE_SQT>, \
         <&kp DE_DQT>; \
@@ -51,7 +51,7 @@ ZMK_MOD_MORPH(sdquote, \
 
 ZMK_MOD_MORPH(bspc_del, \
     mods = <(MOD_LSFT|MOD_RSFT)>; \
-    keep-mods = <(MOD_LSFT|MOD_RSFT)>; \
+    keep-mods = <0>; \
     bindings = \
         <&kp BSPC>, \
         <&kp DEL>; \
