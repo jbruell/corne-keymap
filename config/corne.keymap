@@ -55,19 +55,19 @@ ZMK_MOD_MORPH(bspc_del, \
         <&kp DEL>; \
 )
 
-ZMK_BEHAVIOR(shift_caps_w, tap_dance,
-    tapping-term-ms = <200>;
-    bindings = <&sk LSHFT>, <&caps_word>;
+ZMK_BEHAVIOR(shift_caps_w, tap_dance, \
+    tapping-term-ms = <200>; \
+    bindings = <&sk LSHFT>, <&caps_word>; \
 )
 
-ZMK_MACRO_TWO_PARAM(parens, bindings =
-    <&macro_param_1to1>,
-    <&kp MACRO_PLACEHOLDER &macro_param_2to1>,
-    <&kp MACRO_PLACEHOLDER &kp LEFT>;
+ZMK_MACRO_TWO_PARAM(parens, bindings = \
+    <&macro_param_1to1>, \
+    <&kp MACRO_PLACEHOLDER &macro_param_2to1>, \
+    <&kp MACRO_PLACEHOLDER &kp LEFT>; \
 )
 
-ZMK_MACRO(dir_up, bindings =
-    <&kp DE_DOT &kp DE_DOT &kp DE_SLASH>;
+ZMK_MACRO(dir_up, bindings = \
+    <&kp DE_DOT &kp DE_DOT &kp DE_SLASH>; \
 )
 
 /* Layers */
