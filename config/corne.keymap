@@ -96,8 +96,8 @@ ZMK_LAYER(Symbols,
 //                                                   ╰────────────────┴────────────────┴────────────────╯        ╰────────────────┴────────────────┴────────────────╯
 )
 
-
-ZMK_LAYER(Function,    XXX      &kp PAGE_UP      XXX              &kp UP           XXX              &kp ESC                   &kp SCROLLLOCK   &kp F7           &kp F8           &kp F9           &kp F12          XXX    XXX              &kp PAGE_DOWN    &kp LEFT         &kp DOWN         &kp RIGHT        &kp LC(DE_Z)              &kp PRINT        &kp F4           &kp F5           &kp F6           &kp F11          XXX    XXX              &kp END          &kp LC(DE_X)     &kp LC(DE_C)     &kp LC(DE_V)     &kp LC(DE_Y)              &kp PAUSE        &kp F1           &kp F2           &kp F3           &kp F10          XXX                                                      ___              ___              ___                       ___              ___              ___)
+/*
+ZMK_LAYER(Function,    XXX      &kp PAGE_UP      XXX              &kp UP           XXX              &kp ESC                   &kp SCROLLLOCK   &kp F7           &kp F8           &kp F9           &kp F12          XXX    XXX              &kp PAGE_DOWN    &kp LEFT         &kp DOWN         &kp RIGHT        &kp LC(DE_Z)              &kp PRINT        &kp F4           &kp F5           &kp F6           &kp F11          XXX    XXX              &kp END          &kp LC(DE_X)     &kp LC(DE_C)     &kp LC(DE_V)     &kp LC(DE_Y)              &kp PAUSE        &kp F1           &kp F2           &kp F3           &kp F10          XXX                                                      ___              ___              ___                       ___              ___              ___)*/
 
 ZMK_LAYER(Numbers,
 //╭────────────────┬────────────────┬────────────────┬────────────────┬────────────────┬────────────────╮        ╭────────────────┬────────────────┬────────────────┬────────────────┬────────────────┬────────────────╮
